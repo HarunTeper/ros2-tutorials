@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="tutorial_03_basic_nodes" exec="basic_service" name="basic_service" output="screen"/>
+    <node pkg="tutorial_03_basic_nodes" exec="basic_asynchronous_client" name="basic_asynchronous_client" output="screen"/>
+</launch>

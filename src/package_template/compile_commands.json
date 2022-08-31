@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/home/ls12-gpuhost/ros2-tutorials/build/package_template",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/ls12-gpuhost/ros2-tutorials/src/package_template/include -isystem /opt/ros/galactic/include    -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o -c /home/ls12-gpuhost/ros2-tutorials/src/package_template/src/cpp_node.cpp",
+  "file": "/home/ls12-gpuhost/ros2-tutorials/src/package_template/src/cpp_node.cpp"
+},
+
+{
+  "directory": "/home/ls12-gpuhost/ros2-tutorials/build/tutorial_03_basic_nodes",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/ls12-gpuhost/ros2-tutorials/src/tutorial_03_basic_nodes/include -isystem /opt/ros/galactic/include    -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o -c /home/ls12-gpuhost/ros2-tutorials/src/tutorial_03_basic_nodes/src/cpp_node.cpp",
+  "file": "/home/ls12-gpuhost/ros2-tutorials/src/tutorial_03_basic_nodes/src/cpp_node.cpp"
+}
+]

@@ -7,11 +7,10 @@
 
 CppNodeTemplate::CppNodeTemplate() : Node("node_template")
 {
-    std::cout << "Cpp node template created" << std::endl;
+  std::cout << "Cpp node template created" << std::endl;
 }
 
-
-int main(int argc, char * argv[])
+int main(int argc, char* argv[])
 {
   rclcpp::init(argc, argv);
   rclcpp::spin(std::make_shared<CppNodeTemplate>());

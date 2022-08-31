@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="tutorial_03_basic_nodes" exec="basic_subscription" name="basic_subscription" output="screen"/>
+    <node pkg="tutorial_03_basic_nodes" exec="basic_publisher" name="basic_publisher" output="screen"/>
+</launch>

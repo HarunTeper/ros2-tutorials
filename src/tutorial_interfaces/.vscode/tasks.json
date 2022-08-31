@@ -1,0 +1,16 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {   
+            "label": "Build",
+            "type": "shell",
+            "command": "cd ../.. ; colcon build --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ; mv build/compile_commands.json ${workspaceFolder}/compile_commands.json ",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+              }
+        }
+    ]
+}

@@ -2,8 +2,8 @@
 
 class CppNodeTemplate : public rclcpp::Node
 {
-    public:
-        CppNodeTemplate();
+public:
+  CppNodeTemplate();
 
-    private:
+private:
 };
