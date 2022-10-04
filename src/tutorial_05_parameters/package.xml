@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>tutorial_04_custom_interfaces</name>
+  <name>tutorial_05_parameters</name>
   <version>1.0.0</version>
   <description>Basic ROS2 package for C++ and Python</description>
   <maintainer email="harun.teper@tu-dortmund.de">Harun Teper</maintainer>

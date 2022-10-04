@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(tutorial_04_custom_interfaces)
+project(tutorial_05_parameters)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
