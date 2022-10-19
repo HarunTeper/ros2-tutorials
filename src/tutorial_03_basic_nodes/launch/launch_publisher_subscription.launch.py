@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-"""ROS2 Python shebang"""
+"""ROS2 Launch file"""
 
 from launch_ros.actions import Node
 from launch import LaunchDescription

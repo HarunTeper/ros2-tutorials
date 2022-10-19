@@ -13,19 +13,19 @@ ros2_tutorials
 │   build # Created after building with colcon build
 │   install # Created after building with colcon build
 │   log # Created after building with colcon build
-└───src # Includes all packages that need to be built
-│   └───package_1 # ROS2 package which includes all scripts
-│       │   folders
-│       │   files
-│       │   CMakeLists.txt # Commands to build the package
-│       │   package.xml # Contains dependencies and metadata
-│       │   ...
-│   └───package2
-│       │   folders
-│       │   files
-│       │   CMakeLists.txt # Commands to build the package
-│       │   package.xml # Contains dependencies and metadata
-│       │   ...
+├───src # Includes all packages that need to be built
+│   ├───package_1 # ROS2 package which includes all scripts
+│   │   ├───folders
+│   │   ├───files
+│   │   ├───CMakeLists.txt # Commands to build the package
+│   │   ├───package.xml # Contains dependencies and metadata
+│   │   └───...
+│   ├───package2
+│   │   ├───folders
+│   │   ├───files
+│   │   ├───CMakeLists.txt # Commands to build the package
+│   │   ├───package.xml # Contains dependencies and metadata
+│   │   └───...
 │   └───...
 ```
 
@@ -59,11 +59,11 @@ The structure of the package is as follows:
 
 ```text
 package
-└───include # Header files for C++ scripts
-└───package_template # Libraries and modules for Python
-│       │   __init__.py
-└───scripts # Python scripts
-└───src # Source code file for C++ scripts
+├───include # Header files for C++ scripts
+├───package_template # Libraries and modules for Python
+│       └───__init__.py
+├───scripts # Python scripts
+├───src # Source code file for C++ scripts
 │   CMakeLists.txt # Commands to build the package
 │   package.xml # Contains dependencies and metadata
 ```
@@ -195,3 +195,5 @@ For each dependency, the **package.xml** file needs to include the following lin
 ```
 
 For more information about the package.xml structure, visit https://ros.org/reps/rep-0149.html.
+
+The next tutorials can be found in the corresponding packages.
